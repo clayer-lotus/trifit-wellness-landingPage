@@ -1,0 +1,16 @@
+.navbar{
+    background: linear-gradient(to bottom, #43ae9e3f 0%, #ffc30e49 100%);
+}
+.navigation .navbar {
+    box-shadow: 0 2px 8px 0 rgb(99 99 99 / 11%);
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    color: #5c5a5a;
+    font-weight: 600;
+    font-family: 'Spectral', serif;
+    position: relative;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}

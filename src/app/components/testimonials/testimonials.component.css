@@ -1,0 +1,15 @@
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.755),rgba(0, 0, 0, 0.705)) , url(../../../assets/section1/image2.webp); 
+    background-attachment: fixed;
+    background-position: center center !important;
+    font-family: 'Oswald', sans-serif; 
+    height: 500px;
+}
+.section-testimonials .testimonial-text{
+    color: #ffffffe7;
+}
+.section-testimonials .testimonial-text i{
+    font-size: 120px;
+}
+

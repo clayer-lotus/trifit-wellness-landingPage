@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+li,a,p {
+    /* font-family: 'Spectral', serif; */
+    /* font-family: 'Oswald', sans-serif; */
+}
+.btn {
+    border-radius: 30px!important;
+    color: #fff!important;
+    font-size: 18px!important;
+    font-weight: 500!important;
+    line-height: 48px!important;
+    padding: 0 40px!important;
+    text-align: center!important;
+    transition: all .3s ease-in-out!important;
+}
+
+.btn-vary1 {
+    background: linear-gradient(to right,#e16521,#ffc30edf);
+}
+.btn-vary1:hover {
+    background: linear-gradient(to right,#e16421d8,#ffc30edf);
+}

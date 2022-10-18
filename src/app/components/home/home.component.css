@@ -1,0 +1,48 @@
+.overlay-text {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../../../assets/section1/image4.jpeg); 
+    height: 783px;
+    background-attachment: fixed;
+    background-position: top;
+    /* background-position: center center !important; */
+
+}
+
+.home .overlay-text .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .5;
+}
+
+.home .overlay-text h1 {
+    text-transform: uppercase;
+    font-size: 7vw;
+    color: #ffc20e;
+    line-height: .9;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.home .overlay-text h1 span {
+    padding-top: 10px;
+    font-size: 10vw;
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffc20e;
+   
+}
+
+.home .overlay-text .subheading {
+    font-size: 18px;
+    color: #ffc20e;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+    display: inline-block;
+    position: relative;
+}
