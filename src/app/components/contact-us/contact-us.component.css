@@ -1,15 +1,18 @@
 .section-contact-us {
-    background: rgb(21, 21, 21);
+    background: rgb(0, 0, 0);
     font-family: 'Oswald', sans-serif;
-
+   
 }
-
+.section-contact-us .section-1{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 .section-contact-us .contact-card .item {
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 10px 0px 10px 10px;
-    margin: 5px 0 5px 0;
+    margin: 15px 0 5px 0;
     color: #ffffffe7;
-
+    box-shadow: rgba(45, 46, 47, 0.192) 0px 8px 8px 0px;
 }
 
 .section-contact-us .contact-card .item span {
@@ -21,22 +24,6 @@
     color: #ffffffe7;
 }
 
-.section-contact-us .contact-card .social-links .links {
-    margin: 5px 0 10px 0;
-}
-
-@media only screen and (max-width: 479px) {
-    .section-contact-us .contact-card .social-links {
-        padding-top: 20px ;
-        display: flex;
-        margin: auto;
-    }
-
-    .section-contact-us .contact-card .social-links .links {
-
-        margin: auto;
-    }
-}
 
 .section-contact-us .contact-card .social-links img {
     width: 50px;

@@ -9,6 +9,9 @@ import { OurTrainersComponent } from './components/our-trainers/our-trainers.com
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { AsSeenOnComponent } from './components/as-seen-on/as-seen-on.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
     OurTrainersComponent,
     TestimonialsComponent,
     PricingComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    AsSeenOnComponent,
+    AboutUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -19,7 +19,8 @@
 }
 
 .home .overlay-text .award img{
-    background: white;
+    /* background: rgba(0, 0, 0, 0.745); */
+    background: #fff;
 }
 .home .overlay-text h1 {
     text-transform: uppercase;
