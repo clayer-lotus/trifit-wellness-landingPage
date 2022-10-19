@@ -1,0 +1,40 @@
+.section-offers {
+    background: rgb(0, 0, 0);
+    padding: 90px 0 70px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.accordion-item{
+    background-color: black;
+    color: #ffffffe7;
+}
+.accordion-item .accordion-button {
+    background: linear-gradient(to right,#f16317a5,#ffc30e5f);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+    color: #ffffffe7;
+    padding: 30px 10px 30px 20px ;
+    transform: skewY(361deg);
+}
+.accordion-item:nth-child(1)
+{
+    margin-bottom: 20px;
+}
+
+
+.accordion-item .single-features{
+    display: flex;
+}
+.accordion-item .single-features .feature-caption{
+    padding-left: 19px;
+    padding-top: 5px;
+    
+}
+.why-choose-us .offer-item {
+    margin-bottom: 10px;
+}
+.why-choose-us .offer-item img{
+    width: 100px;
+}
+.why-choose-us .offer-item h4 {
+    color: #ffffffe7;
+}

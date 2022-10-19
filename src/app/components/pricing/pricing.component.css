@@ -2,17 +2,24 @@
     background: rgb(21, 21, 21);
     padding: 90px 0 70px 0;
     font-family: 'Oswald', sans-serif;
+    
 }
 .pricing-card{
     transition: all 0.4s ease 0s;
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 36px 24px 25px;
+    transform: skewY(361deg);
 }
 .pricing-card:hover{
-    background: linear-gradient(to right,#e1642141,#ffc30e5f);
+    background: linear-gradient(to bottom, #43ae9e 0%, #ffc20e 100%);
     box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
 }
 .second-card
+{
+    background: linear-gradient(to right,#e1642141,#ffc30e5f);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+}
+.second-card:hover
 {
     background: linear-gradient(to right,#e1642141,#ffc30e5f);
     box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;

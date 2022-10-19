@@ -12,6 +12,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { AsSeenOnComponent } from './components/as-seen-on/as-seen-on.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { OfferComponent } from './components/offer/offer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ContactUsComponent,
     AsSeenOnComponent,
     AboutUsComponent,
-    FooterComponent
+    FooterComponent,
+    OfferComponent
   ],
   imports: [
     BrowserModule,
