@@ -7,6 +7,7 @@
 
 }
 
+
 .home .overlay-text .overlay {
     position: absolute;
     top: 0;
@@ -17,6 +18,9 @@
     opacity: .5;
 }
 
+.home .overlay-text .award img{
+    background: white;
+}
 .home .overlay-text h1 {
     text-transform: uppercase;
     font-size: 7vw;

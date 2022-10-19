@@ -5,6 +5,9 @@
     box-shadow: 0 2px 8px 0 rgb(99 99 99 / 11%);
 }
 
+.navbar-toggler {
+    font-size: 14px;
+}
 
 .navbar-nav .nav-item .nav-link {
     color: #5c5a5a;

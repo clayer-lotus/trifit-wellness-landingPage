@@ -1,0 +1,73 @@
+.section-contact-us {
+    background: rgb(21, 21, 21);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.section-contact-us .contact-card .item {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0px 10px 10px;
+    margin: 5px 0 5px 0;
+    color: #ffffffe7;
+
+}
+
+.section-contact-us .contact-card .item span {
+    padding-left: 19px;
+}
+
+.section-contact-us .contact-card .item a {
+    text-decoration: none;
+    color: #ffffffe7;
+}
+
+.section-contact-us .contact-card .social-links .links {
+    margin: 5px 0 10px 0;
+}
+
+@media only screen and (max-width: 479px) {
+    .section-contact-us .contact-card .social-links {
+        padding-top: 20px ;
+        display: flex;
+        margin: auto;
+    }
+
+    .section-contact-us .contact-card .social-links .links {
+
+        margin: auto;
+    }
+}
+
+.section-contact-us .contact-card .social-links img {
+    width: 50px;
+}
+
+.section-contact-us .section-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.705)), url(../../../assets/section1/image3.jpg);
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+/* APPOINTMENT FORM */
+.appointment-form .form-control {
+    border: transparent!important;
+    border-bottom: 1px solid rgba(255,255,255,.2)!important;
+    padding-left: 10px;
+    padding-right: 0;
+    background: transparent!important;
+    color: rgba(255,255,255,.9)!important;
+    font-size: 13px;
+    border-radius: 0;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+.appointment-form label{
+    text-align: left;
+    color: white;
+}
+
+.appointment-form .form-group {
+    position: relative;
+    width: 100%;
+    display: block;
+}

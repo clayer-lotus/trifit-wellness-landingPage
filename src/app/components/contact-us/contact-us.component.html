@@ -1,0 +1,135 @@
+<section class="section-contact-us" id="contact-us">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-12 section-1">
+                <div class="row">
+                    <div class="col-12 contact-card py-4">
+                        <div>
+                            <div class="row">
+                                <div class="col-lg-10 col-md-10 col-12 contact-details">
+                                    <div class="col-12 item"><img
+                                            src="https://img.icons8.com/nolan/344/D9E021/FB872B/apple-phone.png"
+                                            width="50" alt="">
+                                        <span>
+                                            <a href="tel:+(602) 265-7770">(602) 265-7770</a>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 item"><img
+                                            src="https://img.icons8.com/nolan/344/D9E021/FB872B/visit.png" width="50"
+                                            alt="" srcset="">
+                                        <span>
+                                            505 E. Camelback Rd Phoenix, AZ 85012
+                                        </span>
+                                    </div>
+                                    <div class="col-12 item"><img
+                                            src="https://img.icons8.com/nolan/344/D9E021/FB872B/send-mass-email.png"
+                                            width="50" alt="" srcset="">
+                                        <span>
+                                            <a href="mailto:phoenix@trifitwellness.com">phoenix@trifitwellness.com</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-12 social-links my-auto ">
+                                    <div class="col-2 links"><a href="https://www.facebook.com/grouptrainingphoenix/"
+                                            target="_blank"><img
+                                                src="https://img.icons8.com/fluency/344/facebook-new.png" alt=""></a>
+                                    </div>
+                                    <div class="col-2 links"><a href="https://www.instagram.com/trifitwellness/"
+                                            target="_blank"><img
+                                                src="https://img.icons8.com/fluency/344/instagram-new.png" alt=""
+                                                srcset=""></a></div>
+                                    <div class="col-2 links"><a
+                                            href="https://www.youtube.com/channel/UCHbWU63nwgyQZBRnXnlf_HA"
+                                            target="_blank"><img src="https://img.icons8.com/color/344/youtube-play.png"
+                                                alt="" srcset=""></a></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 google-map">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
+                                    scrolling="no" marginheight="0" marginwidth="0"
+                                    src="https://maps.google.com/maps?width=600&amp;height=800&amp;hl=en&amp;q=505 E. Camelback Rd Phoenix, AZ 85012&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                    href="https://piratebay-proxys.com/">Piratebay</a></div>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    width: 100%;
+                                    height: 100% ;
+                                }
+
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    width: 100%;
+                                    height: 100% ;
+                                }
+
+                                .gmap_iframe {
+                                    height: 100% !important;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-12 section-2 ">
+               
+                <div class="row d-flex justify-content-center my-auto py-4">
+                    <div class="col-lg-8 text-center">
+                        <div class="header-section">
+                            <h3 class="title">CONTACT US</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <form action="#" class="appointment-form">
+                            <div class="row g-3 ">
+
+                                <div class="col-sm-6">
+                                    <label for="fullName" class="form-label">Full Name</label>
+
+                                    <input type="text" class="form-control" name="firstName" placeholder="First Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+
+                                    <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="emailAddress" class="form-label">Email</label>
+
+                                    <input type="email" class="form-control" name="emailAddress" placeholder="Email">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="mobileNumber" class="form-label">Phone</label>
+
+                                    <input type="mobile" class="form-control" name="mobileNumber" placeholder="Phone">
+                                </div>
+                                <div class="col-12">
+                                    <label for="language" class="form-label">Language </label>
+                                    <select class="form-select" name="language" id="language" required="">
+                                        <option *ngFor="let opt of this.socialHearing" [value]="opt.label"
+                                            [selected]="opt.status == 'true'">
+                                            {{opt.label}}</option>
+                                    </select>
+
+                                </div>
+                                <div class="col-12">
+                                    <label for="comments" class="form-label">Comments or Questions</label>
+                                    <textarea class="form-control" name="comments" placeholder="Comments or Questions" rows="3"></textarea>
+                                  </div>
+                                  <hr class="my-3">
+
+
+                                  <button class="w-100 btn btn-primary btn-lg"   type="submit" >SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

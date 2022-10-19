@@ -1,0 +1,60 @@
+.section-pricing {
+    background: rgb(21, 21, 21);
+    padding: 90px 0 70px 0;
+    font-family: 'Oswald', sans-serif;
+}
+.pricing-card{
+    transition: all 0.4s ease 0s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 36px 24px 25px;
+}
+.pricing-card:hover{
+    background: linear-gradient(to right,#e1642141,#ffc30e5f);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+}
+.second-card
+{
+    background: linear-gradient(to right,#e1642141,#ffc30e5f);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+}
+.pricing-card .icon{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to right,#e16521,#ffc30edf);
+    border-radius: 50px;
+    margin-bottom: 31px;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: rgb(66 85 164 / 8%) 0px 15px 25px;
+}
+
+.pricing-card .caption .months{
+    color: #ffffffe7;
+    text-transform: uppercase;
+}
+.pricing-card .caption p{
+    color: red;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pricing-card .caption p > span {
+    color: #ffffffe7;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pricing-card .single-features{
+    display: flex;
+}
+.pricing-card .single-features .feature-caption{
+    padding-left: 19px;
+    
+}
+.pricing-card .single-features .feature-icon{
+    color: #ffc30edf;
+}
+.pricing-card .single-features .feature-caption p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ffffffe7;
+    text-transform: capitalize;
+}
