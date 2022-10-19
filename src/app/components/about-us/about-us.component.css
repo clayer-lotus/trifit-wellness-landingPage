@@ -1,0 +1,10 @@
+.section-about-us{
+    background: rgb(21, 21, 21);
+    padding: 30px 0 30px 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.section-about-us p,li{
+    color: #ffffffe7;
+   text-align: justify;
+}

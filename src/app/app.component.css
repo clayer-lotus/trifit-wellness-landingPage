@@ -1,0 +1,17 @@
+
+.top {
+    --offset: 50px;
+    position: sticky;
+    bottom: 20px;
+    left: 10px;
+    margin-right: 10px;
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    /* visual styling */
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: linear-gradient(to right,#e16521,#ffc30edf);
+    border-radius: 100px;
+    white-space: nowrap;
+}

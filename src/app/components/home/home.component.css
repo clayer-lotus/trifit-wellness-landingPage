@@ -1,5 +1,5 @@
 .overlay-text {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../../../assets/section1/image4.jpeg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../../../assets/section1/image4.jpeg);
     height: 783px;
     background-attachment: fixed;
     background-position: top;
@@ -18,14 +18,16 @@
     opacity: .5;
 }
 
-.home .overlay-text .award img{
+.home .overlay-text .award img {
     /* background: rgba(0, 0, 0, 0.745); */
     background: #fff;
 }
+
 .home .overlay-text h1 {
     text-transform: uppercase;
     font-size: 7vw;
     color: #ffc20e;
+
     line-height: .9;
     font-weight: normal;
     letter-spacing: 1px;
@@ -39,7 +41,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffc20e;
-   
+
 }
 
 .home .overlay-text .subheading {
@@ -51,3 +53,5 @@
     display: inline-block;
     position: relative;
 }
+
+

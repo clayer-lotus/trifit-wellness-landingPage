@@ -1,7 +1,6 @@
 .section-contact-us {
     background: rgb(0, 0, 0);
     font-family: 'Oswald', sans-serif;
-   
 }
 .section-contact-us .section-1{
     padding-top: 90px;
@@ -13,6 +12,7 @@
     margin: 15px 0 5px 0;
     color: #ffffffe7;
     box-shadow: rgba(45, 46, 47, 0.192) 0px 8px 8px 0px;
+    transform: skewY(361deg);
 }
 
 .section-contact-us .contact-card .item span {
@@ -33,10 +33,16 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.705)), url(../../../assets/section1/image3.jpg);
     background-attachment: fixed;
     object-fit: cover;
+    
+}
+.appointment-form{
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 /* APPOINTMENT FORM */
 .appointment-form .form-control {
+    
     border: transparent!important;
     border-bottom: 1px solid rgba(255,255,255,.2)!important;
     padding-left: 10px;

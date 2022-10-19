@@ -1,0 +1,9 @@
+.section-as-seen-on {
+    background: rgb(0, 0, 0);
+    padding: 90px 0 70px 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.section-as-seen-on .channel img{
+    width: 190px;
+}

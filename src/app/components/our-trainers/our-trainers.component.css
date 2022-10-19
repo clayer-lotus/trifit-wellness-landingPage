@@ -1,7 +1,7 @@
 
 
 .section-team {
-    background: rgb(21, 21, 21);
+    background: rgb(0, 0, 0);
     padding: 90px 0 70px 0;
     font-family: 'Oswald', sans-serif;
 }
@@ -23,6 +23,9 @@
     margin-bottom: 50px;
     border-radius: 50%;
     border: 4px dashed transparent;
+    
+    border: 4px dashed #fff;
+    
     transition: padding .3s;
 }
 
