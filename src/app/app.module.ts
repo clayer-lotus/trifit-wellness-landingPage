@@ -14,6 +14,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { OfferComponent } from './components/offer/offer.component';
 import { MoreAboutUsComponent } from './components/more-about-us/more-about-us.component';
+import { GetStartedComponent } from './get-started/get-started.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MoreAboutUsComponent } from './components/more-about-us/more-about-us.c
     AboutUsComponent,
     FooterComponent,
     OfferComponent,
-    MoreAboutUsComponent
+    MoreAboutUsComponent,
+    GetStartedComponent
   ],
   imports: [
     BrowserModule,
