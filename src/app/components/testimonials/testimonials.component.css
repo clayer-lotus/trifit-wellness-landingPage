@@ -5,6 +5,7 @@
     background-position: center center !important;
     font-family: 'Oswald', sans-serif; 
     height: 550px;
+    transform: skewY(361deg);
 }
 .section-testimonials .testimonial-text{
     color: #ffffffe7;

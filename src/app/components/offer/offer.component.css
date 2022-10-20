@@ -1,5 +1,5 @@
 .section-offers {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     padding: 90px 0 70px 0;
     font-family: 'Oswald', sans-serif;
 }
@@ -36,5 +36,5 @@
     width: 100px;
 }
 .why-choose-us .offer-item h4 {
-    color: #ffffffe7;
+    color: #212529;
 }
