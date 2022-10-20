@@ -1,0 +1,21 @@
+
+.backg{
+    background-color:rgba(235, 76, 13, 0.959);
+   
+}
+.btn-self{
+    
+    color:white;
+    font-size:12px;
+    background-color:rgba(235, 76, 13, 0.959); ;
+    
+    
+
+    display:inline-block;
+    padding:5px;
+    margin-right:200px;
+    
+    
+    
+    border:solid 2px rgb(255, 255, 255);
+} 
