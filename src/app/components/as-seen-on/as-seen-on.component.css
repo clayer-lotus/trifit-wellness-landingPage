@@ -4,6 +4,29 @@
     font-family: 'Oswald', sans-serif;
     transform: skewY(361deg);
 }
-.section-as-seen-on .channel img{
-    width: 190px;
+
+.section-as-seen-on .channel .item {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #1a1a20;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: rgba(99, 100, 100, 0.101) 0px 8px 8px 0px;
+   
+}
+
+.section-as-seen-on .channel img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .section-as-seen-on .channel .item {
+        width: 150px;
+        height: 150px;
+    }
 }
