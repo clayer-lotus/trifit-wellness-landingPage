@@ -5,7 +5,8 @@
 }
 
 .accordion-item{
-    background-color: black;
+    background: rgb(42, 42, 42);
+   
     color: #ffffffe7;
 }
 .accordion-item .accordion-button {
