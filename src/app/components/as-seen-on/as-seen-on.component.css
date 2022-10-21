@@ -3,6 +3,9 @@
     padding: 90px 0 70px 0;
     font-family: 'Oswald', sans-serif;
     transform: skewY(361deg);
+    background: url('http://avantage.bold-themes.com/business/wp-content/uploads/sites/2/2019/04/bgn-industries.png');
+    background-position: bottom;
+    background-size: contain;
 }
 
 .section-as-seen-on .channel .item {

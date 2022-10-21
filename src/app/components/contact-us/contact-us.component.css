@@ -5,6 +5,9 @@
 .section-contact-us .section-1{
     padding-top: 90px;
     padding-bottom: 90px;
+    background: url('http://avantage.bold-themes.com/business/wp-content/uploads/sites/2/2019/04/bgn-industries.png');
+    background-position: center;
+    background-size: contain;
 }
 .section-contact-us .contact-card .item {
     border: 1px solid #1a1a20;

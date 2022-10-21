@@ -1,7 +1,9 @@
 .section-more-about-us{
     padding: 30px 0 30px 0;
     font-family: 'Oswald', sans-serif;
-    
+    background: url('http://avantage.bold-themes.com/business/wp-content/uploads/sites/2/2019/04/bgn-industries.png');
+    background-position: center top;
+    background-size: contain;
 }
 
 img{

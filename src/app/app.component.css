@@ -1,7 +1,7 @@
 
 .top {
     --offset: 50px;
-    position: sticky;
+    position: fixed;
     bottom: 20px;
     left: 10px;
     margin-right: 10px;
