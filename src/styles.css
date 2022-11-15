@@ -52,7 +52,7 @@ ul{
 
 .header-section .title {
     margin-bottom: 18px;
-    font-size: 58px;
+    font-size: 50px;
     text-transform: uppercase;
     display: block;
     -webkit-text-fill-color: transparent;
@@ -61,16 +61,22 @@ ul{
 }
 
 .header-section .small-title {
-    font-size: 22px;
+    font-size: 30px;
     font-family: 'Oswald', sans-serif;
     /* font-family: "Nunito Sans", sans-serif; */
     color: #ffc20e;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 33px;
     margin: 0px 0px 15px;
     text-transform:capitalize;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .header-section .title {
+    font-size: 40px;
+  }
+  }
 
 /* SCROLL BAR */
 
@@ -105,4 +111,9 @@ ul{
   50% {
       opacity: 0;
   }
+}
+
+code{
+  color: #43ae9e;
+  font-weight: bold;
 }
