@@ -4,6 +4,7 @@
     background-attachment: fixed;
     background-position: center center !important;
     font-family: 'Oswald', sans-serif; 
+    padding: 90px 0 70px 0;
     
     transform: skewY(361deg);
 }

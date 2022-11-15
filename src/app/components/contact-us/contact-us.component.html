@@ -5,7 +5,7 @@
                 <div class="row justify-content-center text-center">
                     <div class="col-12">
                         <div class="header-section">
-                            <h3 class="title">CONTACT US</h3>
+                            <h3 class="title">Try a Free Session</h3>
                             <h2 class="small-title">Let's create progress together</h2>
                         </div>
                     </div>
@@ -56,57 +56,93 @@
                 </div>
             </div>
             <div class="col-lg-7 col-12 section-2 ">
-                <div class="row d-flex justify-content-center ">
-                    <div class="col-lg-8 col-md-10 col-11 py-3">
-                        <form action="#" class="appointment-form ">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-lg-8 col-md-10 col-11 py-3 d-flex justify-content-center align-items-center" >
+                        <form #tryFreeSession="ngForm" (ngSubmit)="tryFreeSessionData(tryFreeSession)"
+                                class="needs-validation " novalidate="">
                             <div class="row g-3 ">
 
                                 <div class="col-sm-6">
-                                    <label for="fullName" class="form-label">First Name</label>
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput" name="first_name"
+                                            #first_nameRef="ngModel" ngModel required />
+                                        <label for="floatingInput">First Name</label>
 
-                                    <input type="text" class="form-control" name="firstName" placeholder="First Name">
+                                    </div>
+                                    <div *ngIf="first_nameRef.errors && (first_nameRef.dirty || first_nameRef.touched)"
+                                        style="text-align:left; color:red;">
+                                        <div [hidden]="!first_nameRef.errors">
+                                            <p>&nbsp;First Name is mandatory</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput" name="last_name"
+                                            #last_nameRef="ngModel" ngModel required />
+                                        <label for="floatingInput">Last Name</label>
 
-                                    <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+                                    </div>
+                                    <div *ngIf="last_nameRef.errors && (last_nameRef.dirty || last_nameRef.touched)"
+                                        style="text-align:left; color:red;">
+                                        <div [hidden]="!last_nameRef.errors">
+                                            <p>&nbsp;Last Name is mandatory</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <label for="emailAddress" class="form-label">Email</label>
-
-                                    <input type="email" class="form-control" name="emailAddress" placeholder="Email">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput" name="email"
+                                            #emailRef="ngModel" ngModel required />
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div *ngIf="emailRef.errors && (emailRef.dirty || emailRef.touched)"
+                                        style="text-align:left; color:red;">
+                                        <div [hidden]="!emailRef.errors">
+                                            <p>&nbsp;E-Mail is mandatory</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <label for="mobileNumber" class="form-label">Phone</label>
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control" id="floatingInput" name="phone"
+                                            #phoneRef="ngModel" ngModel required />
 
-                                    <input type="mobile" class="form-control" name="mobileNumber" placeholder="Phone">
+                                        <label for="floatingInput">Phone Number</label>
+                                    </div>
+                                    <div *ngIf="phoneRef.errors && (phoneRef.dirty || phoneRef.touched)"
+                                        style="text-align:left; color:red;">
+                                        <div [hidden]="!phoneRef.errors">
+                                            <p>&nbsp;Phone Number is mandatory</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-12">
-                                    <label for="language" class="form-label">How did you hear about us? </label>
-                                    <select class="form-select" name="language" id="language" required="">
-                                        <option *ngFor="let opt of this.socialHearing" [value]="opt.label"
-                                            [selected]="opt.status == 'true'">
-                                            {{opt.label}}</option>
-                                    </select>
+                                    <div class="form-floating mb-3">
 
-                                </div>
-                                <div class="col-12">
-                                    <label for="language" class="form-label">Intrested In </label>
-                                    <select class="form-select" name="language" id="language" required="">
-                                        <option *ngFor="let opt of this.intrestedIn" [value]="opt.label"
-                                            [selected]="opt.status == 'true'">
-                                            {{opt.label}}</option>
-                                    </select>
+                                        <select class="form-select " name="serviceReq" id="floatingSelect"
+                                            aria-label="Floating label select example" required=""
+                                            (change)="selectChangeHandler1($event)">
 
+                                            <option *ngFor="let opt of this.socialHearing"
+                                                [value]="opt.label" [selected]="opt.status == true">
+                                                {{opt.label}}</option>
+                                        </select>
+                                        <label for="floatingSelect">How did you hear about us?</label>
+                                    </div>
                                 </div>
+                              
                                 <div class="col-12">
-                                    <label for="comments" class="form-label">Comments or Questions</label>
-                                    <textarea class="form-control" name="comments" placeholder="Comments or Questions" rows="5"></textarea>
-                                  </div>
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="What are your health & fitness goals?"
+                                            name="comments" id="floatingTextarea2" style="height: 100px"
+                                            ngModel></textarea>
+                                        <label for="floatingTextarea2">What are your health & fitness goals?</label>
+                                    </div>
+                                   </div>
                                   <hr class="my-3">
-
-
-                                  <button class="w-100 btn btn-primary btn-lg"   type="submit" >SUBMIT</button>
+                                  <button type="submit" class="w-100 btn btn-primary btn-lg"
+                                  [disabled]="!tryFreeSession.form.valid">SUBMIT</button>
                             </div>
                         </form>
                     </div>

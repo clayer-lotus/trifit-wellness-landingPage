@@ -1,10 +1,13 @@
 .section-about-us{
-    background: rgb(42, 42, 42);
+    background: rgba(184, 180, 180, 0.115);
     padding: 30px 0 30px 0;
     font-family: 'Oswald', sans-serif;
     
 }
 .section-about-us p,li{
-    color: #ffffffe7;
+    color: #5A5A5A;
    text-align: justify;
+}
+video{
+    border: 2px solid rgba(128, 128, 128, 0.415);
 }

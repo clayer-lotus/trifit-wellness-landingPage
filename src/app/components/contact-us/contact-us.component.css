@@ -37,7 +37,8 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.705)), url(../../../assets/section1/image3.jpg);
     background-attachment: fixed;
     object-fit: cover;
-    
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 .appointment-form{
     padding-top: 90px;

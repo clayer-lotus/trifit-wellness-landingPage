@@ -45,7 +45,7 @@
 }
 
 .home .overlay-text .subheading {
-    font-size: 18px;
+    font-size:4vw;
     color: #ffc20e;
     text-transform: uppercase;
     font-weight: 900;
@@ -54,7 +54,13 @@
     position: relative;
 }
 
+@media only screen and (max-width: 600px) {
+    .home .overlay-text .subheading {
+        font-size: 38px;
+    }
+   
 
+}
 .scroll-down
 {
     position: absolute;

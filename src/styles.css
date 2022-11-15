@@ -16,6 +16,9 @@ li,a,p {
     /* font-family: 'Spectral', serif; */
     /* font-family: 'Oswald', sans-serif; */
 }
+ul{
+  list-style-type: square;
+}
 .btn {
     border-radius: 30px!important;
     color: #fff!important;
@@ -92,3 +95,14 @@ li,a,p {
   ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(to bottom, #43ae9eaf 0%, #ffc30e88 100%);
   }
+
+  
+.blink {
+  animation: blinker 1.5s linear infinite;
+  
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}

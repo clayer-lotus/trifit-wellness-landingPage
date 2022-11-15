@@ -5,40 +5,32 @@
     background: url('http://avantage.bold-themes.com/business/wp-content/uploads/sites/2/2019/04/bgn-industries.png');
     background-position: center;
     background-size: contain;
+    position: relative;
+    color: #5A5A5A;
 }
 
-.accordion-item{
-    background: rgb(42, 42, 42);
-   
-    color: #ffffffe7;
-}
-.accordion-item .accordion-button {
-    background: linear-gradient(to right,#f16317a5,#ffc30e5f);
-    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
-    color: #ffffffe7;
-    padding: 30px 10px 30px 20px ;
-    transform: skewY(361deg);
-}
-.accordion-item:nth-child(1)
-{
-    margin-bottom: 20px;
+.overlay-icons {
+    position: absolute;
 }
 
+img {
+    z-index: -1;
+}
 
-.accordion-item .single-features{
-    display: flex;
+#img1 {
+    position: absolute;
+    top: -10px;
+
 }
-.accordion-item .single-features .feature-caption{
-    padding-left: 19px;
-    padding-top: 5px;
-    
+
+.box {
+    padding: 20px 0;
+    background: rgba(184, 180, 180, 0.115);
+    box-shadow: 0 3px 12px rgb(0 0 0 / 20%);
+    color: #5A5A5A;
+    transform: skew(-3deg);
 }
-.why-choose-us .offer-item {
-    margin-bottom: 10px;
-}
-.why-choose-us .offer-item img{
-    width: 100px;
-}
-.why-choose-us .offer-item h4 {
-    color: #212529;
+
+.box:hover {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.875);
 }
